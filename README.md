@@ -12,9 +12,11 @@ In this project, I am analyzing 3,000 distinct real stock market data. The datas
  * Low (Prices)
  * Close (Prices)
  * Volume
- ![2014_Data](Images/2014_Data.jpg)
- ![2015_Data](Images/2015_Data.jpg)
- ![2016_Data](Images/2016_Data.jpg)
+![2014_Data](Images/2014_Data.jpg)
+ 
+![2015_Data](Images/2015_Data.jpg)
+ 
+![2016_Data](Images/2016_Data.jpg)
 
 The origin data (Columns A through G) and analysis (Columns I through N) can be found in the same file at [Stock_Analysis.csv](Multiple_year_stock_data.xlsm)
 
@@ -39,7 +41,7 @@ The origin data (Columns A through G) and analysis (Columns I through N) can be 
 
 * Conditional formatting that highlights positive change in green and negative change in red.
 
-![Output](Images/Ouput.jpg)
+![Output](Images/Output.jpg)
 
 * Two buttons can be found in the "Buttons tab":
   
