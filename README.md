@@ -1,81 +1,49 @@
 # Stock Market Analysis
 
-## Background
-
-In this project, I am analyzing real stock market data using VBA. 
-
-### Files
-
-* [Test Data](Resources/alphabtical_testing.xlsx) - Use this while developing your scripts.
-
-* [Stock Data](MEDIUM - Multiple_year_stock_data.xlsx) - Run your scripts on this data to generate the final homework report.
-
-### Stock market analyst
-
 ![stock Market](Images/stockmarket.jpg)
 
-### Easy
+## Background
+In this project, I am analyzing 3,000 distinct real stock market data. The dataset contains 3 separate tabs with daily data for 2014, 2015 and 2016:
 
-* Create a script that will loop through each year of stock data and grab the total amount of volume each stock had over the year.
+ * Ticker
+ * Date (daily)
+ * Open (Prices)
+ * High (Prices)
+ * Low (Prices)
+ * Close (Prices)
+ * Volume
+ ![2014_Data](Images/2014_Data.jpg)
+ ![2015_Data](Images/2015_Data.jpg)
+ ![2016_Data](Images/2016_Data.jpg)
 
-* You will also need to display the ticker symbol to coincide with the total volume.
+The origin data (Columns A through G) and analysis (Columns I through N) can be found in the same file at [Stock_Analysis.csv](Multiple_year_stock_data.xlsm)
 
-* Your result should look as follows (note: all solution images are for 2015 data).
+## Technologies Used
+   * VBA
 
-![easy_solution](Images/easy_solution.png)
+## Summary of Steps
 
-### Moderate
+* Creating a script that loops through all the stocks on every worksheet and return the following information:
 
-* Create a script that will loop through all the stocks and take the following info.
+  * Ticker Symbol
+  
+  * Yearly change between Open and Close Prices for each stock for each year.
 
-  * Yearly change from what the stock opened the year at to what the closing price was.
+  * Percent change between Open and Close Prices for each stock for each year.
 
-  * The percent change from the what it opened the year at to what it closed.
+  * The total Volume of the stock for the year
+  
+  * Open Values
+  
+  * Close Values
 
-  * The total Volume of the stock
+* Conditional formatting that highlights positive change in green and negative change in red.
 
-  * Ticker symbol
+![Output](Images/Ouput.jpg)
 
-* You should also have conditional formatting that will highlight positive change in green and negative change in red.
-
-* The result should look as follows.
-
-![moderate_solution](Images/moderate_solution.png)
-
-### Hard
-
-* Your solution will include everything from the moderate challenge.
-
-* Your solution will also be able to locate the stock with the "Greatest % increase", "Greatest % Decrease" and "Greatest total volume".
-
-* Solution will look as follows.
-
-![hard_solution](Images/hard_solution.png)
-
-### CHALLENGE
-
-* Make the appropriate adjustments to your script that will allow it to run on every worksheet just by running it once.
-
-* This can be applied to any of the difficulties.
-
-### Other Considerations
-
-* Use the sheet `alphabetical_testing.xlsx` while developing your code. This dataset is smaller and will allow you to test faster. Your code should run on this file in less than 3-5 minutes.
-
-* Make sure that the script acts the same on each sheet. The joy of VBA is to take the tediousness out of repetitive task and run over and over again with a click of the button.
-
-## Submission
-
-* To submit please upload the following to Github:
-
-  * A screen shot for each year of your results on the Multi Year Stock Data.
-
-  * VBA Scripts as separate files.
-
-* After everything has been saved, create a sharable link and submit that to <https://bootcampspot-v2.com/>.
-
-- - -
-
-### Copyright
-
-Coding Boot Camp © 2018. All Rights Reserved.
+* Two buttons can be found in the "Buttons tab":
+  
+  * "Perform Analysis" to run the script and see the output
+  * "Reset" to clear the result
+ 
+![Buttons](Images/Buttons.jpg)
