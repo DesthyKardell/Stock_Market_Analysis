@@ -12,6 +12,7 @@ In this project, I am analyzing 3,000 distinct real stock market data. The datas
  * Low (Prices)
  * Close (Prices)
  * Volume
+ 
 ![2014_Data](Images/2014_Data.jpg)
  
 ![2015_Data](Images/2015_Data.jpg)
